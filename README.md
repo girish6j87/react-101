@@ -68,3 +68,5 @@ Reconciliation Algorithm: React uses a reconciliation process to determine what 
 Component-based Architecture: React encourages building applications with reusable components. Each component manages its own state and can be updated independently. This modular approach allows React to re-render only those components whose state has changed, rather than re-rendering the entire application
 
 Fiber Architecture: React's Fiber architecture is an advanced reconciliation algorithm introduced in React 16. Fiber allows React to split rendering work into chunks and spread it out over multiple frames. This makes React more responsive and allows for smoother updates, particularly for complex applications with a lot of state changes.
+
+What is hook : it is normal javascript funtion.
