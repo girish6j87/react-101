@@ -70,3 +70,7 @@ Component-based Architecture: React encourages building applications with reusab
 Fiber Architecture: React's Fiber architecture is an advanced reconciliation algorithm introduced in React 16. Fiber allows React to split rendering work into chunks and spread it out over multiple frames. This makes React more responsive and allows for smoother updates, particularly for complex applications with a lot of state changes.
 
 What is hook : it is normal javascript funtion.
+
+# Routing in web apps
+- Client side routing
+- Server side routing
