@@ -74,3 +74,4 @@ What is hook : it is normal javascript funtion.
 # Routing in web apps
 - Client side routing
 - Server side routing
+Class based component
