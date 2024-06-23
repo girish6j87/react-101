@@ -2,7 +2,7 @@ import { CDN_URL } from "../utils/constants";
 
 const ResaurantCard = (props) => {
   const { resData } = props;
-  console.log("check props data",props);
+  console.log("check props data", props);
   const { cloudinaryImageId, name, cuisines, avgRating, sla } = resData;
   // console.log(resData.info.name);
   // console.log(resData.info.cuisines.join(", "));
@@ -24,6 +24,20 @@ const ResaurantCard = (props) => {
       <h4>{sla.slaString}</h4>
     </div>
   );
+};
+
+// Higher Order Component
+// input - Restaurant => RestaurantCardPromoted
+
+export const withPromotedLabel = (ResaurantCard) => {
+  return (props) => {
+    return (
+      <div>
+        <label className="absolute bg-black text-white m-2 p-2 rounded-lg">Promoted</label>
+        <ResaurantCard {...props}/>
+      </div>
+    );
+  };
 };
 
 export default ResaurantCard;

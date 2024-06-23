@@ -75,3 +75,4 @@ What is hook : it is normal javascript funtion.
 - Client side routing
 - Server side routing
 Class based component
+Higher Order Component: It is a function that takes a component and returns a new enhance component.
